@@ -8,15 +8,20 @@ import Layout from "../layouts/main.astro";
 
 <Layout title="Atchyut Nagabhairava">
   <div
-    class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
+    class="relative z-20 w-full max-w-5xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
   >
     <div class="flex flex-col items-center md:flex-row">
       <div class="relative w-full md:w-1/2">
         <h1
           class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
         >
-          Hello, I'm Atchyut Nagabhairava.
+          Hello There 👋
         </h1>
+        <h1
+          class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-4xl dark:text-white"
+        >
+        I'm Atchyut Nagabhairava
+      </h2>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
           I'm a Developer living in Hyderabad, India. <br
             class="hidden lg:block"
@@ -33,7 +38,13 @@ import Layout from "../layouts/main.astro";
           <li>Website Design</li>
           <li>Web App Development</li>
         </ul>
-        <Button text="Follow me on 𝕏" link="https://x.com/0xKaiBi" />
+        <Button text="Follow me on 𝕏" link="https://x.com/atchyutn" />
+        <Button
+          text="Follow me on Linkedin"
+          link="https://linkedin.com/in/atchyutn"
+          target="_blank"
+          rel="noopener noreferrer"
+        />
       </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
@@ -47,7 +58,7 @@ import Layout from "../layouts/main.astro";
             >
               <span
                 class="flex items-center justify-center w-full h-full bg-white border border-dashed rounded-full dark:bg-neutral-950 border-neutral-300 dark:border-neutral-700"
-                >👋</span
+                >👨🏻‍💻</span
               >
             </span>
           </div>
@@ -68,8 +79,8 @@ import Layout from "../layouts/main.astro";
     </div>
   </div>
 
-  <Separator text="Check out my projects" />
-  <Projects />
+  <!-- <Separator text="Check out my projects" />
+  <Projects /> -->
   <Separator text="Some of my writing" />
   <Writings />
 </Layout>
